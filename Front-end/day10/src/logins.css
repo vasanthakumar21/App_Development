@@ -1,0 +1,113 @@
+.app4 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 110vh;
+    background-color: rgb(175, 13, 135);
+   background-image: url("C:\Users\vasan\Downloads\wallpaperflare.com_wallpaper.jpg"); 
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5000%;
+  }
+  
+  
+  .checkbox-container label {
+    flex: 1;
+  }
+  
+  
+  .uname {
+    height: 25px;
+    border: none;
+    
+    border-bottom:2px solid black;
+  
+  }
+  
+  .letin {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #484286;
+    
+    color: #fff;
+    padding: 10px 20px;
+   
+  }
+  
+  .letin:hover {
+    background: #495bad;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 50px 0 rgba(44, 26, 133, 0.2), 0 6px 20px 0 rgba(70, 41, 124, 0.19);
+    width: 600px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 75x;
+    font-weight: bolder;
+  }
+  
+  .input-containers {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;
+    margin-left: 150px;
+   
+  }
+  
+  .input-containers label {
+    display: block;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    margin-left: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  
+  
+  
+  .dd {
+    margin-left: 70px;
+    margin-top: 8px;
+  }
